@@ -144,7 +144,8 @@ footer .container .row .lower-footer a{
     font-size: 20px;
     font-weight: 500;
 }
-footer .container .row .lower-footer .follow ul li{
+footer .container .row .lower-footer .follow ul li,
+#main .container .row .left-content .follow ul li{
     display: inline-block;
     color: #FFFFFF;
     font-size: 18px;
@@ -152,10 +153,12 @@ footer .container .row .lower-footer .follow ul li{
     line-height: 180%;
     text-transform: capitalize;
 }
-footer .container .row .lower-footer .follow ul li:nth-child(4){
+footer .container .row .lower-footer .follow ul li:nth-child(4),
+#main .container .row .left-content .follow ul li:nth-child(4){
     padding-right: 0;
 }
-footer .container .row .lower-footer .follow ul li i{
+footer .container .row .lower-footer .follow ul li i,
+#main .container .row .left-content .follow ul li i{
     display: inline-block;
     width: 30px;
     text-align: center;
@@ -165,3 +168,78 @@ footer .container .row .lower-footer .follow ul li i{
     background-color: #484848;
 } 
 /* footer end */
+
+
+/* main */
+#main{
+    margin: 80px 0;
+}
+#main .container .row .left-content{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+#main .container .row .left-content .heading{
+    /* border: 2px solid black; */
+}
+#main .container .row .left-content .heading p{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #353535;
+}
+#main .container .row .left-content .heading p i,
+#main .container .row .left-content .click-span a i{
+    padding-left: 10px;
+}
+#main .container .row .left-content .heading h1{
+    font-family: "PT Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #353535;
+}
+#main .container .row .left-content .heading small{
+    display: block;
+    width: 425px;
+    line-height: 190%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #353535;
+}
+#main .container .row .left-content .click-span{
+    display: flex;
+    gap: 40px;
+    padding: 40px 0;
+}
+#main .container .row .left-content .click-span .talk,
+#main .container .row .left-content .click-span .download{
+    width: 209px;
+    height: 69px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    text-align: center;
+    background-color: #FFCC00;
+}
+#main .container .row .left-content .click-span a{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 69px;
+    text-transform: capitalize;
+}
+#main .container .row .left-content .follow ul li{
+    color: #353535;
+    padding: 0 4px;
+    cursor: pointer;
+}
+#main .container .row .left-content .follow ul li i{
+    background-color: #F4F3F3;
+    color: black;
+    cursor: pointer;
+}
+#main .container .row .right-content{
+    width: 50%;
+}
+#main .container .row .right-content img{
+    width: 100%;
+}
+/* main end */
