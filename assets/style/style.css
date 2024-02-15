@@ -968,6 +968,7 @@ footer .container .row .lower-footer .follow ul li i,
     border-radius: 16px;
     padding-left: 50px;
     font-size: 18px;
+    border: none;
     text-transform: capitalize;
 }
 #main-11 .container .row .content .right-content .box .right-box{
