@@ -723,7 +723,7 @@ footer .container .row .lower-footer .follow ul li i,
 
 /* main section 8 */
 #main-8{
-    margin: 80px;
+    margin: 80px 0 0 0;
     padding: 70px 0;
     background-color: #FFF7D5;
 }
@@ -788,6 +788,9 @@ footer .container .row .lower-footer .follow ul li i,
     background-image: linear-gradient(to right, #FFCC00, #FFE476);
     transition: 0.3s;
 }
+#main-8 .container .row .services-card .card:hover p{
+    width: 269px;
+}
 #main-8 .container .row .services-card .card:hover h3{
     font-size: 26px;
 }
@@ -795,3 +798,196 @@ footer .container .row .lower-footer .follow ul li i,
     font-size: 16px;
 }
 /* main section 8 end */
+
+/* main section 9 */
+#main-9{
+    padding-top: 92px;
+    background-color: #FBFBFB;
+}
+#main-9 .container .row .heading h3{
+    font-family: "PT Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #353535;
+    margin-bottom: 13px;
+}
+#main-9 .container .row .heading p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7A7A7A;
+    width: 703px;
+    height: 64px;
+    margin-bottom: 63px;
+}
+#main-9 .container .content .left-content,
+#main-9 .container .content .right-content{
+    width: 50%;
+    margin-bottom: 57px;
+    /* border: 2px solid red; */
+}
+#main-9 .container .content .left-content img{
+    width: 100%;
+}
+#main-9 .container .content .right-content{
+    padding: 95px 0 0 40px;
+    width: 500px;
+}
+#main-9 .container .content .right-content p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #7A7A7A;
+    margin-bottom: 27px;
+}
+#main-9 .container .content .right-content h3{
+    padding-left: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #353535;
+}
+#main-9 .container .content .right-content h4{
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+/* main section 9 end */
+
+
+/* main section 10  */
+#main-10{
+    margin: 80px;
+    /* border: 2px solid red; */
+}
+#main-10 .container .row .heading{
+    margin-left: auto;
+}
+#main-10 .container .row .heading h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    color: #353535;
+}
+#main-10 .container .row .product-card{
+    justify-content: space-between;
+    margin-top: 100px;
+    /* border: 2px solid red; */
+}
+#main-10 .container .row .product-card .card{
+    width: 524px;
+    height: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+}
+#main-10 .container .row .product-card .card .image{
+    width: 260px;
+    height: 200px;
+    /* border: 2px solid red; */
+}
+#main-10 .container .row .product-card .image img{
+    width: 100%;
+    height: 100%;
+}
+#main-10 .container .row .card-heading{
+    padding-left: 25px;
+}
+#main-10 .container .row .card-heading .date{
+    gap: 25px;
+    margin-bottom: 10px;
+}
+#main-10 .container .row .card-heading .date p{
+    font-size: 14px;
+    color: #7A7A7A;
+}
+#main-10 .container .row .card-heading .date p i{
+    padding-right: 10px;
+}
+#main-10 .container .row .card-heading .date h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: #353535;
+}
+#main-10 .container .row .card-heading h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #353535;
+}
+#main-10 .container .row .card-heading .read p{
+    font-size: 18px;
+    color: #353535;
+    font-weight: 500;
+    margin-top: 15px;
+}
+/* main section 10 end  */
+
+
+/* main section 11 */
+#main-11 .container{
+    background-image: linear-gradient(to right, #FFCC00, #FFF5CB);
+    height: 295px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+#main-11 .container .row .content .left-content,
+#main-11 .container .row .content .right-content{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+#main-11 .container .row .content .left-content .heading p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #353535;
+    text-transform: capitalize;
+}
+#main-11 .container .row .content .left-content .heading h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #353535;
+    text-transform: capitalize;
+}
+#main-11 .container .row .content .left-content .heading h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #353535;
+    text-transform: capitalize;
+}
+#main-11 .container .row .content .right-content .box{
+    position: relative;
+}
+#main-11 .container .row .content .right-content .box .left-box{
+    margin-left: 15px;
+    z-index: 9;
+}
+#main-11 .container .row .content .right-content .box .left-box input{
+    width: 455px;
+    height: 82px;
+    border-radius: 16px;
+    padding-left: 50px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+#main-11 .container .row .content .right-content .box .right-box{
+    width: 132px;
+    height: 82px;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #FF6565;
+    border-radius: 0 16px 16px 0;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+}
+#main-11 .container .row .content .right-content .box .right-box h3{
+    line-height: 82px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+/* main section 11 end */
