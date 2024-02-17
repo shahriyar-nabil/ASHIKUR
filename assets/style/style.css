@@ -113,7 +113,7 @@ footer .container .row .upper-footer .talk span a{
     font-size: 18px;
     font-weight: 600;
 }
-footer .container .row .upper-footer .talk i{ 
+footer .container .row .upper-footer .talk i{
     color: white;
     padding-left: 10px;
     font-size: large;
@@ -166,7 +166,7 @@ footer .container .row .lower-footer .follow ul li i,
     height: 30px;
     border-radius: 50%;
     background-color: #484848;
-} 
+}
 /* footer end */
 
 /* home */
@@ -592,7 +592,7 @@ footer .container .row .lower-footer .follow ul li i,
 #main-6 .container .row .work .card:nth-child(1) .content::after,
 #about .section-3 .container .row .left-content .experience-card .card:nth-child(1) .date::after,
 #about .section-3 .container .row .right-content .experience-card .card:nth-child(1) .date::after{
-    
+
     background-color: #52AB70;
 }
 #main-6 .container .row .work .card:nth-child(2) .content::after,
@@ -684,7 +684,7 @@ footer .container .row .lower-footer .follow ul li i,
     position: relative;
 }
 #main-7 .container .row .right-content .lower-section .card h3,
-#about .container .row .skills-card .card h3{ 
+#about .container .row .skills-card .card h3{
     font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
@@ -697,7 +697,7 @@ footer .container .row .lower-footer .follow ul li i,
     height: 6px;
     border-radius: 50px;
     background-color: #D9D9D9;
-} 
+}
 #main-7 .container .row .right-content .lower-section .card .value,
 #about .container .row .skills-card .card .value{
     width: 85%;
@@ -1027,7 +1027,8 @@ footer .container .row .lower-footer .follow ul li i,
 /* about */
 
 /* about main section 1 */
-#about .section-1 .container{
+#about .section-1 .container,
+#project .section-1 .container{
     margin-top: 80px;
     height: 180px;
     background-image: url(./../image/about-1-bg.svg);
@@ -1035,13 +1036,15 @@ footer .container .row .lower-footer .follow ul li i,
     background-repeat: no-repeat;
     background-size: cover;
 }
-#about .section-1 .container .row{
+#about .section-1 .container .row,
+#project .section-1 .container .row .title{
     flex-direction: column;
     color: white;
     margin: auto;
     text-align: center;
 }
-#about .section-1 .container .row h1{
+#about .section-1 .container .row h1,
+#project .section-1 .container .row .title h1{
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 46px;
@@ -1049,14 +1052,16 @@ footer .container .row .lower-footer .follow ul li i,
     text-transform: capitalize;
     font-family: "PT Sans", sans-serif;
 }
-#about .section-1 .container .row p{
+#about .section-1 .container .row p,
+#project .section-1 .container .row .title p{
     font-size: 18px;
     font-weight: 600;
     position: relative;
     width: fit-content;
     margin: auto;
 }
-#about .section-1 .container .row p::after{
+#about .section-1 .container .row p::after,
+#project .section-1 .container .row .title p::after{
     content: "";
     position: absolute;
     width: 84px;
@@ -1065,7 +1070,8 @@ footer .container .row .lower-footer .follow ul li i,
     top: 50%;
     right: -90px;
 }
-#about .section-1 .container .row p::before{
+#about .section-1 .container .row p::before,
+#project .section-1 .container .row .title p::before{
     content: "";
     position: absolute;
     width: 84px;
@@ -1204,21 +1210,21 @@ footer .container .row .lower-footer .follow ul li i,
 #about .section-3 .container .row .left-content .card,
 #about .section-3 .container .row .right-content .card{
     margin-bottom: 45px;
-} 
+}
 #about .section-3 .container .row .left-content .card h3,
 #about .section-3 .container .row .right-content .card h3{
     font-size: 20px;
     font-weight: 600;
     color: #353535;
     margin-bottom: 10px;
-} 
+}
 #about .section-3 .container .row .left-content .card p,
 #about .section-3 .container .row .right-content .card p{
     font-size: 18px;
     font-weight: 400;
     color: #353535;
     width: 450px;
-} 
+}
 /* about main section 3 end */
 
 /* about main section 4 */
@@ -1286,3 +1292,82 @@ footer .container .row .lower-footer .follow ul li i,
 /* about main section 4 end */
 
 /* about end */
+
+/* project */
+/* project main section 1 start */
+#project{
+    margin: 80px 0;
+}
+#project .section-1 .container .row .title{
+    position: relative;
+    z-index: 19;
+}
+#project .section-1 .container .row .title .image{
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    right: 64%;
+}
+/*project main section 1 end*/
+/* project main section 2 */
+#project .section-2{
+    margin: 80px;
+}
+#project .section-2 .container .row .catagories ul li{
+    display: inline-block;
+    margin-right: 65px;
+    width: 149px;
+    height: 63px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 63px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#project .section-2 .container .row .catagories ul li a{
+    color: #353535;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#project .section-2 .container .row .catagories ul li:hover{
+    border: 1px solid black;
+}
+#project .section-2 .container .row .project-card{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#project .section-2 .container .row .project-card .card{
+    margin: 30px 0;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+#project .section-2 .container .row .project-card .card .image{
+    width: 500px;
+    /* border: 2px solid red; */
+}
+#project .section-2 .container .row .project-card .card .image img{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+#project .section-2 .container .row .project-card .card h4{
+    color: #7A7A7A;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px 0;
+}
+#project .section-2 .container .row .project-card .card h3{
+    color: #353535;
+    font-weight: 600;
+    font-size: 24px;
+}
+/* project main section 2 end */
+/* project end */
+
+
