@@ -918,12 +918,16 @@ footer .container .row .lower-footer .follow ul li i,
     margin-bottom: 10px;
 }
 #main-10 .container .row .card-heading .date p,
-#about .section-3 .container .row .date p{
+#about .section-3 .container .row .date p,
+#blog .section-2 .container .row .right-content p,
+#blog .section-3 .container .row .blog-card .card .heading p{
     font-size: 14px;
     color: #7A7A7A;
 }
 #main-10 .container .row .card-heading .date p i,
-#about .section-3 .container .row .date p i{
+#about .section-3 .container .row .date p i,
+#blog .section-2 .container .row .right-content p i,
+#blog .section-3 .container .row .blog-card .card .heading p i{
     padding-right: 10px;
 }
 #main-10 .container .row .card-heading .date h3{
@@ -1029,7 +1033,8 @@ footer .container .row .lower-footer .follow ul li i,
 /* about main section 1 */
 #about .section-1 .container,
 #project .section-1 .container,
-#contact .section-1 .container{
+#contact .section-1 .container,
+#blog .section-1 .container{
     margin-top: 80px;
     height: 180px;
     background-image: url(./../image/about-1-bg.svg);
@@ -1039,7 +1044,8 @@ footer .container .row .lower-footer .follow ul li i,
 }
 #about .section-1 .container .row,
 #project .section-1 .container .row .title,
-#contact .section-1 .container .row .title{
+#contact .section-1 .container .row .title,
+#blog .section-1 .container .row .title{
     flex-direction: column;
     color: white;
     margin: auto;
@@ -1047,7 +1053,8 @@ footer .container .row .lower-footer .follow ul li i,
 }
 #about .section-1 .container .row h1,
 #project .section-1 .container .row .title h1,
-#contact .section-1 .container .row .title h1{
+#contact .section-1 .container .row .title h1,
+#blog .section-1 .container .row .title h1{
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 46px;
@@ -1057,7 +1064,8 @@ footer .container .row .lower-footer .follow ul li i,
 }
 #about .section-1 .container .row p,
 #project .section-1 .container .row .title p,
-#contact .section-1 .container .row .title p{
+#contact .section-1 .container .row .title p,
+#blog .section-1 .container .row .title p{
     font-size: 18px;
     font-weight: 600;
     position: relative;
@@ -1066,7 +1074,8 @@ footer .container .row .lower-footer .follow ul li i,
 }
 #about .section-1 .container .row p::after,
 #project .section-1 .container .row .title p::after,
-#contact .section-1 .container .row .title p::after{
+#contact .section-1 .container .row .title p::after,
+#blog .section-1 .container .row .title p::after{
     content: "";
     position: absolute;
     width: 84px;
@@ -1077,7 +1086,8 @@ footer .container .row .lower-footer .follow ul li i,
 }
 #about .section-1 .container .row p::before,
 #project .section-1 .container .row .title p::before,
-#contact .section-1 .container .row .title p::before{
+#contact .section-1 .container .row .title p::before,
+#blog .section-1 .container .row .title p::before{
     content: "";
     position: absolute;
     width: 84px;
@@ -1305,12 +1315,14 @@ footer .container .row .lower-footer .follow ul li i,
     margin: 80px 0;
 }
 #project .section-1 .container .row .title,
-#contact .section-1 .container .row .title{
+#contact .section-1 .container .row .title,
+#blog .section-1 .container .row .title{
     position: relative;
     z-index: 19;
 }
 #project .section-1 .container .row .title .image,
-#contact .section-1 .container .row .title .image{
+#contact .section-1 .container .row .title .image,
+#blog .section-1 .container .row .title .image{
     position: absolute;
     z-index: 0;
     top: 20px;
@@ -1494,3 +1506,89 @@ footer .container .row .lower-footer .follow ul li i,
 }
 /* contact section 1 end */
 /* contact ends here */
+/* blog starts here */
+/* blog section 1 */
+#blog{
+    margin: 80px;
+}
+#blog .section-1 .container .row .title .image{
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    right: 59%;
+}
+/* blog section 1 end */
+/* blog section 2 */
+#blog .section-2{
+    margin: 80px 0;
+    /* border: 2px solid black; */
+}
+#blog .section-2 .container .row{
+    justify-content: space-between;
+}
+#blog .section-2 .container .row .left-content,
+#blog .section-2 .container .row .right-content{
+    width: 49%;
+    /* border: 2px solid black; */
+}
+#blog .section-2 .container .row .left-content img{
+    width: 100%;
+}
+#blog .section-2 .container .row .right-content h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #353535;
+    margin-bottom: 15px;
+    line-height: 164%;
+}
+#blog .section-2 .container .row .right-content h3{
+    font-size: 18px;
+    color: #7A7A7A;
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 200%;
+}
+#blog .section-2 .container .row .right-content p,
+#blog .section-3 .container .row .blog-card .card .heading p{
+    line-height: 190%;
+}
+/* blog section 2 end */
+/* blog section 3 */
+#blog .section-3{
+    margin: 80px 0;
+}
+#blog .section-3 .container .row .blog-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#blog .section-3 .container .row .blog-card .card{
+    margin-bottom: 40px;
+    width: 30%;
+}
+#blog .section-3 .container .row .blog-card .card .image{
+    width: 350px;
+    height: 328px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+#blog .section-3 .container .row .blog-card .card .image img{
+    width: 100%;
+    border-radius: 20px;
+}
+#blog .section-3 .container .row .blog-card .card .heading h3{
+    font-size: 20px;
+    color: #353535;
+    font-weight: 600;
+    line-height: 190%;
+}
+#blog .section-3 .container .row .blog-card .card .heading h2{
+    font-size: 16px;
+    color: #7A7A7A;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+/* blog section 3 end */
+/* blog ends here */
