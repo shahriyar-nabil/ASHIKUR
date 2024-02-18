@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -168,7 +167,6 @@ footer .container .row .lower-footer .follow ul li i,
     background-color: #484848;
 }
 /* footer end */
-
 /* home */
 /* main */
 #main{
@@ -284,8 +282,6 @@ footer .container .row .lower-footer .follow ul li i,
     line-height: 66px;
 }
 /* main section-2 end */
-
-
 /* main section-3  */
 #main-3{
     margin-top: 80px;
@@ -332,9 +328,6 @@ footer .container .row .lower-footer .follow ul li i,
     color: #353535;
 }
 /* main section-3 end */
-
-
-
 /* main section 4 */
 #main-4{
     margin: 80px 0;
@@ -392,7 +385,6 @@ footer .container .row .lower-footer .follow ul li i,
     text-transform: capitalize;
 }
 /* main section 4 end */
-
 /* main sect6ion 5 */
 #main-5{
     margin: 80px;
@@ -460,7 +452,6 @@ footer .container .row .lower-footer .follow ul li i,
     font-weight: 500;
     color: #353535;
 }
-
 #main-5 .container .row .right-content{
     text-align: right;
 }
@@ -561,7 +552,6 @@ footer .container .row .lower-footer .follow ul li i,
     border-left: 2px dashed #353535;
     top: 0;
     left: calc(50% - 80px);
-
 }
 #main-6 .container .row .work .card .content::before,
 #about .section-3 .container .row .left-content .experience-card .card .date::before,
@@ -592,7 +582,6 @@ footer .container .row .lower-footer .follow ul li i,
 #main-6 .container .row .work .card:nth-child(1) .content::after,
 #about .section-3 .container .row .left-content .experience-card .card:nth-child(1) .date::after,
 #about .section-3 .container .row .right-content .experience-card .card:nth-child(1) .date::after{
-
     background-color: #52AB70;
 }
 #main-6 .container .row .work .card:nth-child(2) .content::after,
@@ -606,7 +595,6 @@ footer .container .row .lower-footer .follow ul li i,
     background-color: #FFD233;
 }
 /* main section 6 end */
-
 /* main section 7 */
 #main-7{
     margin: 80px;
@@ -689,7 +677,6 @@ footer .container .row .lower-footer .follow ul li i,
     font-weight: 600;
     text-transform: capitalize;
 }
-
 #main-7 .container .row .right-content .lower-section .card .half,
 #about .container .row .skills-card .card .half{
     margin-top: 11px;
@@ -740,7 +727,6 @@ footer .container .row .lower-footer .follow ul li i,
     color: #234BDA;
 }
 /* main section 7 end */
-
 /* main section 8 */
 #main-8{
     margin: 80px 0 0 0;
@@ -818,7 +804,6 @@ footer .container .row .lower-footer .follow ul li i,
     font-size: 16px;
 }
 /* main section 8 end */
-
 /* main section 9 */
 #main-9{
     padding-top: 92px;
@@ -871,8 +856,6 @@ footer .container .row .lower-footer .follow ul li i,
     color: #7A7A7A;
 }
 /* main section 9 end */
-
-
 /* main section 10  */
 #main-10{
     margin: 80px;
@@ -947,8 +930,6 @@ footer .container .row .lower-footer .follow ul li i,
     margin-top: 15px;
 }
 /* main section 10 end  */
-
-
 /* main section 11 */
 #main-11 .container{
     background-image: linear-gradient(to right, #FFCC00, #FFF5CB);
@@ -1020,16 +1001,7 @@ footer .container .row .lower-footer .follow ul li i,
 }
 /* main section 11 end */
 /* home end */
-
-
-
-
-
-
-
-
 /* about */
-
 /* about main section 1 */
 #about .section-1 .container,
 #project .section-1 .container,
@@ -1097,7 +1069,6 @@ footer .container .row .lower-footer .follow ul li i,
     left: -90px;
 }
 /* main section 1 end */
-
 /* about main section 2 */
 #about .section-2{
     margin: 80px 0;
@@ -1171,7 +1142,6 @@ footer .container .row .lower-footer .follow ul li i,
     margin-top: 70px;
 }
 /* about main section 2 end */
-
 /* about main section 3 */
 #about .section-3{
     margin: 80px 0;
@@ -1193,8 +1163,6 @@ footer .container .row .lower-footer .follow ul li i,
     top: -5px;
     z-index: 95;
 }
-
-
 #about .section-3 .container .row .left-content .experience-card .card .date::after,
 #about .section-3 .container .row .right-content .experience-card .card .date::after{
     width: 16px;
@@ -1203,17 +1171,12 @@ footer .container .row .lower-footer .follow ul li i,
     top: 5px;
     z-index: 9595;
 }
-
-
-
 #about .section-3 .container .row .left-content,
 #about .section-3 .container .row .right-content{
     margin-left: 110px;
     width: 40%;
     /* border: 2px solid red; */
 }
-
-
 #about .section-3 .container .row .left-content .title,
 #about .section-3 .container .row .right-content .title{
     font-family: "PT Sans", sans-serif;
@@ -1242,7 +1205,6 @@ footer .container .row .lower-footer .follow ul li i,
     width: 450px;
 }
 /* about main section 3 end */
-
 /* about main section 4 */
 #about .section-4{
     margin: 80px 0;
@@ -1304,11 +1266,8 @@ footer .container .row .lower-footer .follow ul li i,
     left: 90%;
     color: #F16500;
 }
-
 /* about main section 4 end */
-
 /* about end */
-
 /* project */
 /* project main section 1 start */
 #project{
@@ -1389,8 +1348,6 @@ footer .container .row .lower-footer .follow ul li i,
 }
 /* project main section 2 end */
 /* project end */
-
-
 /* contact starts here */
 /* contact section 1  */
 #contact .form{
@@ -1463,7 +1420,6 @@ footer .container .row .lower-footer .follow ul li i,
     flex-wrap: wrap;
     /* border: 2px solid black; */
 }
-
 #contact .form .container .row .right-section .name-email input,
 #contact .form .container .row .right-section .phone-subject input{
     width: 310px;
@@ -1589,6 +1545,5 @@ footer .container .row .lower-footer .follow ul li i,
     font-weight: 400;
     line-height: 200%;
 }
-
 /* blog section 3 end */
 /* blog ends here */
